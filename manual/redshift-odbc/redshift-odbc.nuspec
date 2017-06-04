@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>redshift-odbc</id>
+    <version>1.3.1.1000</version>
+    <packageSourceUrl>https://github.com/astoltz/chocolatey-packages-template/manual/redshift-odbc</packageSourceUrl>
+    <owners>Andrew M. Stoltz</owners>
+    <title>redshift-odbc (Install)</title>
+    <authors>Amazon Web Services, Inc</authors>
+    <projectUrl>https://docs.aws.amazon.com/redshift/latest/mgmt/install-odbc-driver-windows.html</projectUrl>
+    <iconUrl>https://d0.awsstatic.com/logos/partners/AWS_IPC_BigData_Icon.png</iconUrl>
+    <copyright>2017, Amazon Web Services, Inc. or its affiliates.</copyright>
+    <licenseUrl>https://s3.amazonaws.com/redshift-downloads/drivers/Amazon+Redshift+ODBC+Driver+License+Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://docs.aws.amazon.com/redshift/latest/mgmt/configure-odbc-connection.html</docsUrl>
+    <tags>aws cloud amazon redshift odbc</tags>
+    <releaseNotes>https://s3.amazonaws.com/redshift-downloads/drivers/Amazon+Redshift+ODBC+Release+Notes.pdf</releaseNotes>
+    <description>ODBC driver for Amazon Redshift</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
